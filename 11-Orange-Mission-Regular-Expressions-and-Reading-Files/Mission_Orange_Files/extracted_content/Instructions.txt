@@ -1,21 +1,16 @@
-If you are reading this, then you successfully were able to decipher the blog post on The Gold Bugs website to find the link. 
+If you are reading this, then you successfully were able to decipher the blog post on The Gold Bugs website. 
 
 The link led to a zip file. After unzipping the file you will notice this instructions.txt file and folders with many random txt files in them.
 
-Hidden within the text of these files are two links. You should be able to use regex to find the url links which will lead to the next phase as you go through every .txt file programmatically.
+Hidden within the text of these files are two links. You should be able to use regex to find the links. The links are in the form:
 
-One link leads to a download of a csv file, another to a set of instructions to follow for that csv file. 
-
-The links will be in this form (note these are examples of the url form, not the actual links):
-
-https://drive.google.com/open?id=1tWJBFrSQL06qTZgkohs4t_a5Cu84AheLo
+https://drive.google.com/open?id=1tWJBFrSQL06qTZgkohs4t_a5Cu84AheLo 
 
 and
 
 https://docs.google.com/document/d/Q-DcxM17nJm_El0aGsNnY7FajaogRviwja/edit
 
-Note how they start with https:// and then have a series of characters, including dots, underscores, forward slashes, and dashes as well.
-Use this information for your regular expressions.
+One link leads to a download of a csv file, another to a set of instructions to follow for that csv file.
 
 Download the csv file and follow the instructions in the other link for the next steps.
 
